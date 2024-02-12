@@ -1,0 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    /* Pentru greutatea 700 a fontului Raleway */
+}
