@@ -1,0 +1,35 @@
+/* C6 - Variabile CSS pentru paleta de culori */
+:root {
+    --text-color: #333;
+    --background-color: #fff;
+    --highlight-color: #4CAF50;
+    --font-size: 16px;
+    --line-height-multiplier: 1.5;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    line-height: calc(var(--font-size) * var(--line-height-multiplier));
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+/* C5 - Starea activă pentru link-urile din antet și subsol */
+.navbar a:hover,
+.footer a:hover {
+    color: var(--highlight-color);
+}
+
+/* C5 - Starea activă pentru butoane */
+.button:hover,
+.button:active {
+    background-color: var(--highlight-color);
+    color: #fff;
+}
